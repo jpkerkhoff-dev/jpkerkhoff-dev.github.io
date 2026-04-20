@@ -1,0 +1,8 @@
+# Add your projects here. Each entry will automatically appear as a card on the homepage.
+# status: "complete" | "in-progress" | "archived"
+
+- title: Custom UART Bootloader
+  description: Bare-metal bootloader on STM32F4 with CRC-32 validation, dual-bank flash, and automatic fallback recovery on corrupt firmware.
+  status: in-progress
+  tags: [STM32, C, bare-metal, UART]
+  repo: NA

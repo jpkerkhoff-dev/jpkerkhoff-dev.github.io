@@ -1,0 +1,9 @@
+{% assign group = include.group %}
+<div class="skill-group">
+  <div class="skill-group-label">{{ group.group }}</div>
+  <ul class="skill-list">
+    {% for item in group.items %}
+      <li><span class="skill-dot"></span>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,34 @@
+# Add or remove skill groups and items freely.
+# Each group renders as one card in the skills section.
+
+- group: firmware
+  items:
+    - C / C++
+    - FreeRTOS / Zephyr
+    - HAL & LL drivers
+    - GDB / OpenOCD
+    - Bare-metal init & linker scripts
+
+- group: hardware
+  items:
+    - KiCad (schematic + layout)
+    - PCB routing & DFM
+    - Oscilloscope & logic analyzer
+    - JTAG / SWD bring-up
+    - Signal integrity basics
+
+- group: protocols
+  items:
+    - SPI / I2C / UART
+    - USB Full-Speed / CAN
+    - LoRa / MQTT
+    - Modbus RTU
+    - USB PD (FUSB302)
+
+- group: toolchain
+  items:
+    - Git / GitHub Actions
+    - CMake / Make
+    - Docker (cross-compile)
+    - VS Code + Cortex-Debug
+    - Doxygen
